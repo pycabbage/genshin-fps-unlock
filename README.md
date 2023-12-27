@@ -1,7 +1,10 @@
 # Genshin Impact FPS Unlocker [modified by Sefinek]
 > [Custom release for Genshin Stella Mod. Read more...](https://sefinek.net/genshin-impact-reshade)
 
+[Download Build](https://nightly.link/pycabbage/genshin-fps-unlock/workflows/msbuild/ci/genshin-fps-unlock.zip)
+
 ## Information
+
 - This tool helps you to unlock the 60 FPS limit in the game.
 - This is an external program which uses **WriteProcessMemory** to write the desired fps to the game.
 - Handle protection bypass is already included.
@@ -17,18 +20,24 @@
 - Place the compiled exe anywhere you want.
 - Make sure your game is closed—the unlocker will automatically start the game for you.
 - Run the exe as administrator, and leave the exe running.
+
 > It requires administrator because the game needs to be started by the unlocker and the game requires such permission.
+
 - To inject other third-party plugins (e.g. ReShade), go to `Options->Settings->DLLs` and click add.
 
 ## Notes
+
 - My test account is currently AR55, can't guarantee it will be safe forever, but honestly though, I doubt they would ban you for this.
 - Modifying game memory with an unauthorized third party application is a violation of the ToS, so use it at your own risk. Same thing applies for injecting ReShade.
 
 ## Compiling
+
 Use Visual Studio 2022 Community Edition to compile.
 
 ## Version 2.0.0 Changes
+
 [Click here](https://github.com/34736384/genshin-fps-unlock#version-200-changes)
 
-# Chinese translation
+## Chinese translation
+
 [Click here](https://github.com/34736384/genshin-fps-unlock#%E5%8E%9F%E7%A5%9E%E8%A7%A3%E9%94%81fps%E9%99%90%E5%88%B6)
